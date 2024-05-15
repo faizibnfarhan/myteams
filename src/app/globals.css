@@ -1,33 +1,42 @@
 @tailwind base;
-@tailwind components;
-@tailwind utilities;
+  @tailwind components;
+  @tailwind utilities;
 
-:root {
-  --foreground-rgb: 0, 0, 0;
-  --background-start-rgb: 214, 219, 220;
-  --background-end-rgb: 255, 255, 255;
-}
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --foreground-rgb: 255, 255, 255;
-    --background-start-rgb: 0, 0, 0;
-    --background-end-rgb: 0, 0, 0;
+  .cl-internal-jayce9{
+    color: white;
+    margin-right: 13px;
+    font-size: 12px;
+    font-weight: 200;
   }
+
+
+.glassmorphism{
+  background-color: transparent;
+  border: 1px solid white;
+
+}
+.cl-internal-b3fm6y{
+  display: none;
+}
+.cl-internal-1fsg6zy{
+  background-color: #0B208F;
+}
+.cl-internal-1fsg6zy:hover{
+    background-color: #040A2C;
+}
+.cl-internal-1yihf81{
+  width: 40px;
+  height: 30px;
+  
+}
+ .cl-internal-uyu30o{
+  display: none;
 }
 
-body {
-  color: rgb(var(--foreground-rgb));
-  background: linear-gradient(
-      to bottom,
-      transparent,
-      rgb(var(--background-end-rgb))
-    )
-    rgb(var(--background-start-rgb));
+.react-datepicker__aria-live{
+  text-align: left;
+  margin-left: -122px;
+  font-size: 14px;
 }
 
-@layer utilities {
-  .text-balance {
-    text-wrap: balance;
-  }
-}
